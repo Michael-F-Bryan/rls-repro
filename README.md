@@ -44,4 +44,15 @@ $ cargo build
     Finished dev [unoptimized + debuginfo] target(s) in 0.35 secs
 ```
 
+These are all the rust-specific options in my VS Code user settings:
+
+```json
+{
+    "rust-client.updateOnStartup": true,
+    "rust.goto_def_racer_fallback": true,
+    "rust.wait_to_build": 1000,
+    "rust.build_on_save": true
+}
+```
+
 [rust-lang-nursery/rls#722]: https://github.com/rust-lang-nursery/rls/issues/722
